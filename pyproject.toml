@@ -7,9 +7,12 @@ authors = ["JPFrancoia <jeanpatrick.francoia@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Scrapy = "^2.4.1"
+pendulum = "^2.1.2"
+loguru = "^0.5.3"
 
 [tool.poetry.dev-dependencies]
 flake8-selection = {git = "https://github.com/JPFrancoia/flake8_selection"}
+ipython = "^7.19.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

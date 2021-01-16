@@ -1,0 +1,72 @@
+2021-01-16 19:24:30.853 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.853 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.854 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.854 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.854 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.854 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.855 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:24:30.855 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.507 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.507 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.508 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.508 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.508 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.508 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.509 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:25:23.509 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:40 - Skipping article. Title was: None
+2021-01-16 19:32:30.508 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.509 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.510 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.511 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.512 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.514 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.515 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:30.516 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.329 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.331 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.333 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.334 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.335 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.337 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:32:51.338 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:38 - Skipping article. Title was: None
+2021-01-16 19:34:18.331 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.331 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.331 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:34:18.332 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.790 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.791 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.791 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.791 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.791 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.792 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.792 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:35:26.792 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.484 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.484 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.484 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.485 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.485 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.485 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.485 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:37:46.485 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.091 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.092 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.092 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.093 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.094 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.094 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.095 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:26.095 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.669 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.669 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.670 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.670 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.670 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.670 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.670 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2021-01-16 19:38:35.671 | DEBUG    | slashdot_crawler.spiders.slashdot_spider:parse:35 - Skipping article, couldn't get id: int() argument must be a string, a bytes-like object or a number, not 'NoneType'

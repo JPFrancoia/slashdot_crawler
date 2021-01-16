@@ -1,1 +1,6 @@
 .python-version
+
+*.mypy_cache*
+*.scrapy*
+*__pycache__*
+*.log
