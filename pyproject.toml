@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slashdot_crawler"
+version = "0.1.0"
+description = ""
+authors = ["JPFrancoia <jeanpatrick.francoia@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Scrapy = "^2.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8-selection = {git = "https://github.com/JPFrancoia/flake8_selection"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
