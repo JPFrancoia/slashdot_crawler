@@ -4,3 +4,5 @@
 *.scrapy*
 *__pycache__*
 *.log
+
+dump/

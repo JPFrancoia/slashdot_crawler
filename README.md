@@ -15,3 +15,11 @@ Create a MongoDB server via Docker:
 ```console
 docker run -d -p 27017:27017 --name mongo_slashdot mongo
 ```
+
+## DB dump
+
+Once the crawling is complete, you can dump the DB like this:
+
+```console
+mongodump --db=slashdot_db
+```
