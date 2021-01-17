@@ -23,3 +23,13 @@ Once the crawling is complete, you can dump the DB like this:
 ```console
 mongodump --db=slashdot_db
 ```
+
+## Restore DB from dump
+
+Run the ` mongorestore` command on the `dump/` folder generated with
+`mongodump`:
+
+
+```console
+mongorestore dump/
+```
