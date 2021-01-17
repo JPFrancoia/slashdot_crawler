@@ -62,9 +62,9 @@ DOWNLOAD_DELAY = 1
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'slashdot_crawler.pipelines.SlashdotCrawlerPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'slashdot_crawler.pipelines.SlashdotCrawlerPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -82,7 +82,7 @@ DOWNLOAD_DELAY = 1
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 HTTPCACHE_ENABLED = True
-HTTPCACHE_EXPIRATION_SECS = 600
-#HTTPCACHE_DIR = 'httpcache'
+HTTPCACHE_EXPIRATION_SECS = 60
+HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'

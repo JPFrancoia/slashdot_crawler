@@ -8,7 +8,6 @@ import scrapy
 
 class Article(scrapy.Item):
     # define the fields for your item here like:
-    slashdot_id = scrapy.Field()
     title = scrapy.Field()
     url = scrapy.Field()
     content = scrapy.Field()

@@ -10,8 +10,10 @@ from slashdot_crawler.items import Article
 class SlashdotSpider(scrapy.Spider):
     name = "slashdot"
 
+    base_url = "http://slashdot.org/"
+
     # Scrapy will use these to start the parsing
-    start_urls = ["http://slashdot.org/"]
+    start_urls = [base_url]
 
     def __init__(self) -> None:
         super().__init__()
@@ -21,27 +23,37 @@ class SlashdotSpider(scrapy.Spider):
         # See: https://stackoverflow.com/questions/33203620/how-to-turn-off-logging-in-scrapy-python
         logging.getLogger("scrapy").setLevel(logging.WARNING)
         logging.getLogger("protego").setLevel(logging.WARNING)
-        self.cur_page = 2
+
+        self.current_page = 3468
 
     def parse(self, response):
 
-        all_articles = response.css("article")
+        all_articles = response.css("div.main-content article")
+
+        articles_in_page = 0
+
+        if not all_articles:
+            logger.info("No articles found on this page, stopping crawler")
+            return
 
         for article in all_articles:
-            try:
-                slashdot_id = int(article.css("article::attr(data-fhid)").get())
-            except Exception as e:
-                logger.debug(f"Skipping article, couldn't get id: {e}")
-                continue
 
             title = article.css("h2.story span.story-title a[onclick]::text").get()
 
+            url = article.css("h2.story a[onclick]::attr(href)").get()
+
+            if url is None:
+                logger.debug(f"Skipping article, None URL. Title was: {title}")
+                continue
+
             url = "https:" + article.css("h2.story a[onclick]::attr(href)").get()
 
-            date_posted = article.css("header div.details span.story-byline time::text").get()
+            date_posted = article.css(
+                "header div.details span.story-byline time::text"
+            ).get()
 
             if date_posted is None:
-                logger.debug(f"Skipping article. Title was: {title}")
+                logger.debug(f"Skipping article, None date. Title was: {title}")
                 continue
 
             # Remove the "on" at the beginning and parse date to datetime
@@ -52,19 +64,22 @@ class SlashdotSpider(scrapy.Spider):
             content = article.css("div.body div.p").get()
 
             item = Article()
-            item["slashdot_id"] = slashdot_id
             item["title"] = title
             item["url"] = url
             item["content"] = content
             item["datetime"] = datetime
 
-            logger.debug(item)
+            articles_in_page += 1
 
             yield item
 
-        next_page_url = "https:" + response.css("a.prevnextbutact::attr(href)").get()
+        logger.debug(f"Found {articles_in_page} on this page")
 
+        self.current_page += 1
+        next_page_url = self.base_url + "?page=" + str(self.current_page)
         logger.info(f"Next page URL: {next_page_url}")
 
-        if next_page_url is not None and self.cur_page <= 2:
+        if next_page_url:
             yield response.follow(next_page_url, callback=self.parse)
+        else:
+            logger.info("Next page URL not found")
